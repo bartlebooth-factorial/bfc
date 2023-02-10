@@ -1,4 +1,6 @@
 bfc:
-	gcc bfc.c -o bfc;
+	gcc src/bfc.c -o bfc;
+clean:
+	rm bfc;
 
 .PHONY: bfc;
